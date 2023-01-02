@@ -12,6 +12,8 @@ Compressed versions of the data (CSV in 7zip, Apache Parquet) can be downloaded 
 Add data to Hadoop:
 
 hdfs dfs -mkdir /target input folder
+
+
 hdfs dfs -copyFromLocal “filepath”  “target input folder”
 
 Security:
