@@ -23,3 +23,7 @@ https://www.geeksforgeeks.org/hadoop-file-permission-and-aclaccess-control-list/
 Visualization:
 Done in Jupyter Notebook
 
+Hadoop_Pyhton_Example
+
+To run this example type in "hadoop jar C:/hadoop-3.3.0/hadoop-streaming-2.7.3.jar -input /work/carriers.txt  -output work/output  -mapper mapper.py  -reducer reducer.py" after completing the basic steps of uploading the data to hadoop. 
+
